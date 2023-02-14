@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.novaksam.jss.VLC by JamfRecipeMaker</string>
+	<string>Recipe automatically generated from com.github.novaksam.jss.VLC by JamfRecipeMakera</string>
 	<key>Identifier</key>
 	<string>vlc.upload.jamf.VLCmediaplayer</string>	<key>Input</key>
 	<dict>
