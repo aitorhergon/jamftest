@@ -19,6 +19,23 @@
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>vlc.download.VLCmediaplayer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>vlc.download.VLCmediaplayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f789400411ef4633a1b27c1c44df0e9466a4cec7</string>
+				<key>path</key>
+				<string>/Users/uscahg/Library/CloudStorage/OneDrive-GrupoPlaneta/Documents/GitHub/jamftest/VLC media player/VLC media player.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dc3afe2c36c103e99876498a9f536df6d2ae2f2e7b21c6827679fc9bbf2e8e90</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
