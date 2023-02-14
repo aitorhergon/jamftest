@@ -25,7 +25,7 @@
 				<string><Internet</string>
 			</dict>
 			<key>Processor</key>
-			<string>com.github.aitorhergon.jamftest.processors/JamfUploaderProcessors/JamfCategoryUploader</string>
+			<string>com.github.aitorhergon.jamftest.processors/JamfCategoryUploader</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
@@ -34,7 +34,7 @@
 				<string>Internet</string>
 			</dict>
 			<key>Processor</key>
-			<string>com.github.aitorhergon.jamftest.processors/JamfUploaderProcessors/JamfPatchUploader</string>
+			<string>com.github.aitorhergon.jamftest.processors/JamfPatchUploader</string>
 		</dict>
 	</array>
 </dict>
