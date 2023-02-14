@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VLC media player and uploads the package to your JSS.</string>
 	<key>Identifier</key>
-	<string>vlc.jss-upload.VLCmediaplayer</string>
+	<string>vlc.upload.jamf.VLCmediaplayer</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
