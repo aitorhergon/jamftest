@@ -17,30 +17,6 @@
 	<string>2.3</string>
 	<key>ParentRecipe</key>
 	<string>vlc.pkg.VLCmediaplayer</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict/>
-		<key>parent_recipes</key>
-		<dict>
-			<key>vlc.download.VLCmediaplayer</key>
-			<dict>
-				<key>git_hash</key>
-				<string>f789400411ef4633a1b27c1c44df0e9466a4cec7</string>
-				<key>path</key>
-				<string>/Users/uscahg/Library/CloudStorage/OneDrive-GrupoPlaneta/Documents/GitHub/jamftest/VLC media player/VLC media player.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>dc3afe2c36c103e99876498a9f536df6d2ae2f2e7b21c6827679fc9bbf2e8e90</string>
-			</dict>
-			<key>vlc.pkg.VLCmediaplayer</key>
-			<dict>
-				<key>path</key>
-				<string>/Users/uscahg/Library/CloudStorage/OneDrive-GrupoPlaneta/Documents/GitHub/jamftest/VLC media player/VLC media player.pkg.recipe</string>
-				<key>sha256_hash</key>
-				<string>6c57bd0754c7b8ee78928e5e0d2e1d9e3d16babcc512f6a16682318f48e235a6</string>
-			</dict>
-		</dict>
-	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -50,7 +26,7 @@
 				<string>%CATEGORY%</string>
 			</dict>
 			<key>Processor</key>
-			<string>com.github.aitorhergon.jamftest.processors/JamfCategoryUploader</string>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
@@ -59,7 +35,7 @@
 				<string>%CATEGORY%</string>
 			</dict>
 			<key>Processor</key>
-			<string>com.github.aitorhergon.jamftest.processors/JamfPatchUploader</string>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
 		</dict>
 	</array>
 </dict>
