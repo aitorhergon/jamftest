@@ -44,6 +44,8 @@
          <dict>
             <key>Arguments</key>
             <dict>
+               <key>pkg_replace</key>
+               <string>VLC-3.0.10.pkg</string>
                <key>pkg_category</key>
                <string>%PKG_CATEGORY%</string>
                <key>pkg_notes</key>
