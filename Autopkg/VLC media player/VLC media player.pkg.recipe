@@ -19,6 +19,23 @@
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>aitorhergon.download.VLCmediaplayer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>aitorhergon.download.VLCmediaplayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>85d4065b5a23493ae410282329b83c22e897befc</string>
+				<key>path</key>
+				<string>~/Library/CloudStorage/OneDrive-GrupoPlaneta/Documents/GitHub/jamftest/Autopkg/VLC media player/VLC media player.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2904b795b18f01e70b39f85d5d29430808d0ab6ddb66377e05c8987fbeeac7eb</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
