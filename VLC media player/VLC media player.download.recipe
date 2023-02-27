@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VLC media player.</string>
 	<key>Identifier</key>
-	<string>aitorhergon.download.VLCmediaplayer</string>
+	<string>com.github.aitorhergon.download.VLCmediaplayer</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
