@@ -9,7 +9,7 @@
       <key>Input</key>
       <dict>
          <key>NAME</key>
-         <string>VLC</string>
+         <string>VLC-3.0.10.pkg</string>
          <key>CATEGORY</key>
          <string>Software Genérico</string>
          <key>PKG_CATEGORY</key>
@@ -44,8 +44,8 @@
          <dict>
             <key>Arguments</key>
             <dict>
-               <key>pkg_replace</key>
-               <string>VLC-3.0.10.pkg</string>
+               <key>pkg_name</key>
+               <string>%PKG_NAME%</string>
                <key>pkg_category</key>
                <string>%PKG_CATEGORY%</string>
                <key>pkg_notes</key>
