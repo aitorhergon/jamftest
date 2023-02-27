@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VLC media player and creates a package.</string>
 	<key>Identifier</key>
-	<string>aitorhergon.pkg.VLCmediaplayer</string>
+	<string>com.github.aitorhergon.jamftest.pkg.VLCmediaplayer</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>aitorhergon.download.VLCmediaplayer</string>
+	<string>com.github.aitorhergon.jamftest.download.VLCmediaplayer</string>
 	<key>Process</key>
 	<array>
 		<dict>
