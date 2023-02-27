@@ -11,7 +11,7 @@
          <key>NAME</key>
          <string>VLC</string>
          <key>CATEGORY</key>
-         <string>Apps</string>
+         <string>Software Genérico</string>
          <key>PKG_CATEGORY</key>
          <string>%CATEGORY%</string>
          <key>STOPPROCESSINGIF_PREDICATE</key>
@@ -44,6 +44,8 @@
          <dict>
             <key>Arguments</key>
             <dict>
+               <key>NAME</key>
+               <string>VLC2</string>
                <key>pkg_category</key>
                <string>%PKG_CATEGORY%</string>
                <key>pkg_notes</key>
