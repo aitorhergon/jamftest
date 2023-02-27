@@ -11,7 +11,7 @@
          <key>NAME</key>
          <string>VLC</string>
          <key>CATEGORY</key>
-         <string>Software Genérico</string>
+         <string>Apps</string>
          <key>PKG_CATEGORY</key>
          <string>%CATEGORY%</string>
          <key>STOPPROCESSINGIF_PREDICATE</key>
