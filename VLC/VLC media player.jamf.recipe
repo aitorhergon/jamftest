@@ -35,6 +35,8 @@
          <dict>
             <key>Arguments</key>
             <dict>
+               <key>replace_pkg</key>
+               <string>true</string>
                <key>predicate</key>
                <string>%STOPPROCESSINGIF_PREDICATE%</string>
             </dict>
@@ -44,6 +46,7 @@
          <dict>
             <key>Arguments</key>
             <dict>
+
                <key>pkg_name</key>
                <string>VLC.pkg</string>
                <key>pkg_category</key>
