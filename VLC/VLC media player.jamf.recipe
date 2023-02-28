@@ -45,7 +45,7 @@
             <key>Arguments</key>
             <dict>
                <key>pkg_name</key>
-               <string>%PKG_NAME%</string>
+               <string>VLC-3.0.10.pkg</string>
                <key>pkg_category</key>
                <string>%PKG_CATEGORY%</string>
                <key>pkg_notes</key>
